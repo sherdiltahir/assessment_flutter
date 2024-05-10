@@ -124,7 +124,7 @@ class MealListTile extends StatelessWidget {
                   painter: StrokeToAddButton(),
                   child: Container(
                     decoration: const BoxDecoration(
-                        color: Colors.black,
+                        color: ColorName.addIconBG,
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(5),
                             bottomLeft: Radius.circular(5),
