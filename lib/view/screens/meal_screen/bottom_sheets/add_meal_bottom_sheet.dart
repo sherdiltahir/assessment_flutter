@@ -12,7 +12,8 @@ class AddMealBottomSheet {
     final GlobalKey<FormState> formKey = GlobalKey<FormState>();
     final mealData = await showModalBottomSheet(
         builder: (context) => Padding(
-              padding: const EdgeInsets.all(25),
+              padding: EdgeInsets.fromLTRB(
+                  25, 25, 25, MediaQuery.of(context).viewInsets.bottom),
               child: Form(
                 key: formKey,
                 child: Column(

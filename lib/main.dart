@@ -1,4 +1,5 @@
 import 'package:assessment_flutter/gen/colors.gen.dart';
+import 'package:assessment_flutter/gen/fonts.gen.dart';
 import 'package:assessment_flutter/provider/meal_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Meal App',
           theme: ThemeData(
-            fontFamily: "Poppins",
+            fontFamily: FontFamily.poppins,
             dialogBackgroundColor: ColorName.bgScaffoldColor,
             scaffoldBackgroundColor: ColorName.bgScaffoldColor,
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey),
